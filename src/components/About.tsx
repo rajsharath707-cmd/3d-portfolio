@@ -6,11 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          Motivated international business professional with strong skills in global market strategy, data-driven decision-making, and cross-border operations. Skilled in Python, SQL, Excel, Power BI, and business analytics. I hold B1 German proficiency and am fluent in English, Hindi, Malayalam, and German. Currently an Associate in Operations at Amber, where I manage accommodation bookings and sales processes. I'm also the creator of Backpack Scholar, a YouTube channel dedicated to helping students with Ireland studies, visa guidance, IELTS preparation, and student life advice.
         </p>
       </div>
     </div>

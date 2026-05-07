@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
+    title: "Backpack Scholar",
+    category: "Educational YouTube Channel",
+    tools: "Content Creation, Video Editing, Educational Content",
     image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    link: "https://youtube.com/@BackpackScholar",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
+    title: "Data Analytics Portfolio",
+    category: "Business Analytics Projects",
+    tools: "SQL, Power BI, Excel, Market Research",
     image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
+    title: "Global Market Analysis",
+    category: "International Business Strategy",
+    tools: "Market Research, Data Analysis, Business Strategy",
     image: "/images/broki.png",
-    link: "https://broki.in",
+    link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
+    title: "Student Guidance Program",
+    category: "Cross-Cultural Educational Support",
+    tools: "Visa Guidance, IELTS Preparation, Student Mentorship",
     image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    link: "https://youtube.com/@BackpackScholar",
   },
 ];
 
