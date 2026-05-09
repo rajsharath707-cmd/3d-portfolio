@@ -5,16 +5,20 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Backpack Scholar",
-    category: "Educational YouTube Channel",
-    tools: "Content Creation, Video Editing, Educational Content",
+    title: "High School - Commerce (CBSE Board)",
+    category: "Sarvodya Bal Vidyalaya",
+    tools: "Accountancy, Banking, Business Studies, Economics",
+    date: "2021/04 – 2022/06",
+    location: "New Delhi, Delhi",
     image: "/images/callhq.png",
-    link: "https://youtube.com/@BackpackScholar",
+    link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
   {
-    title: "Data Analytics Portfolio",
-    category: "Business Analytics Projects",
-    tools: "SQL, Power BI, Excel, Market Research",
+    title: "Bachelor of Commerce",
+    category: "Delhi University",
+    tools: "Financial Accounting, Business Law, Marketing with emphasis on data-driven business solutions",
+    date: "2022/08 – 2025/08",
+    location: "New Delhi, Delhi",
     image: "/images/whatsapp.png",
     link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
@@ -61,10 +65,10 @@ const Work = () => {
   }, [currentIndex, goToSlide]);
 
   return (
-    <div className="work-section" id="work">
+    <div className="work-section" id="education">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          My <span>Education</span>
         </h2>
 
         <div className="carousel-wrapper">
@@ -107,9 +111,21 @@ const Work = () => {
                           {project.category}
                         </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Subjects</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.date && (
+                          <div className="carousel-tools">
+                            <span className="tools-label">Duration</span>
+                            <p>{project.date}</p>
+                          </div>
+                        )}
+                        {project.location && (
+                          <div className="carousel-tools">
+                            <span className="tools-label">Location</span>
+                            <p>{project.location}</p>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
