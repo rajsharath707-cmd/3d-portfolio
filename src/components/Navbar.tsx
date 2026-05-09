@@ -42,22 +42,10 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          SR
-        </a>
-        <a
-          href="https://linkedin.com/in/sharath-raj-b7116a311"
-          className="navbar-connect"
-          data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
-        >
-          linkedin.com/in/sharath-raj
-        </a>
         <ul>
           <li>
             <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
+              <HoverLinks text="ABOUT ME" />
             </a>
           </li>
           <li>

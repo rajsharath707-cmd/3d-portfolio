@@ -87,19 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DATA ANALYTICS</h3>
-              <h4>Business Intelligence & Insights</h4>
+              <h3>MARKETING & BRAND STRATEGY</h3>
+              <h4></h4>
               <p>
-                Transforming raw data into actionable business insights through advanced analytics and visualization. Expertise in market research, KPI analysis, and data-driven decision-making for strategic planning.
+                Helping businesses grow through strategic marketing, customer engagement, and brand positioning. Focused on creating strong business visibility, improving customer trust, and building long-term brand value through effective communication and market understanding.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset & Tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">SQL</div>
-                <div className="what-tags">Power BI</div>
-                <div className="what-tags">Excel Analytics</div>
-                <div className="what-tags">Data Visualization</div>
-                <div className="what-tags">Market Research</div>
-                <div className="what-tags">KPI Analysis</div>
+                <div className="what-tags">Digital Marketing</div>
+                <div className="what-tags">Brand Strategy</div>
+                <div className="what-tags">Customer Engagement</div>
+                <div className="what-tags">Social Media Communication</div>
+                <div className="what-tags">Business Promotion</div>
+                <div className="what-tags">Relationship Management</div>
+                <div className="what-tags">Sales Coordination</div>
+                <div className="what-tags">Communication Skills</div>
+                <div className="what-tags">Market Understanding</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -123,19 +126,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUSINESS &amp; STRATEGY</h3>
-              <h4>Global Markets & Operations</h4>
+              <h3>BUSINESS OPERATIONS & MANAGEMENT</h3>
+              <h4></h4>
               <p>
-                Specialized in global market strategy and cross-border operations. Strong background in international business dynamics, with expertise in managing operations across multiple markets and cultures.
+                Managing day-to-day business activities with a focus on smooth execution, operational efficiency, and customer satisfaction. Experienced in handling coordination, workflow management, client support, and business process operations across different industries.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset & Tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Global Strategy</div>
-                <div className="what-tags">Cross-border Ops</div>
-                <div className="what-tags">Market Dynamics</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">GDS Tools</div>
-                <div className="what-tags">Dashboard Creation</div>
+                <div className="what-tags">Operations Management</div>
+                <div className="what-tags">Process Coordination</div>
+                <div className="what-tags">Business Handling</div>
+                <div className="what-tags">Team Coordination</div>
+                <div className="what-tags">Problem Solving</div>
+                <div className="what-tags">Workflow Management</div>
+                <div className="what-tags">Client Support</div>
+                <div className="what-tags">MS Excel</div>
+                <div className="what-tags">Operational Planning</div>
               </div>
               <div className="what-arrow"></div>
             </div>
