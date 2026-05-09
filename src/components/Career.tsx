@@ -18,7 +18,7 @@ const Career = () => {
                 <h4>Associate – Operations</h4>
                 <h5>Amber</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Mar 2026 – Active</h3>
             </div>
             <p>
               Assisting students with short-term and long-term accommodation bookings. Managing end-to-end sales and booking processes while engaging leads through WhatsApp, email, and CRM tools. Building strong client relationships and consistently improving conversion rates.
@@ -30,7 +30,7 @@ const Career = () => {
                 <h4>Associate – Operations</h4>
                 <h5>WNS Global Services</h5>
               </div>
-              <h3>2025–26</h3>
+              <h3>Sep 2025 – Mar 2026</h3>
             </div>
             <p>
               Delivered comprehensive customer support via chat, email, and calls for airline operations. Managed flight bookings, rebookings, cancellations, and schedule changes using Amadeus and Sabre GDS systems. Maintained service quality, SLA compliance, and high customer satisfaction standards.
@@ -54,7 +54,7 @@ const Career = () => {
                 <h4>Content Creator</h4>
                 <h5>Backpack Scholar (YouTube)</h5>
               </div>
-              <h3>Active</h3>
+              <h3>Jan 2025 - Active</h3>
             </div>
             <p>
               Managing a YouTube channel with 500+ subscribers focused on educational content for students planning to study abroad. Providing visa guidance, IELTS preparation strategies, and student life advice with 10K+ total views.
