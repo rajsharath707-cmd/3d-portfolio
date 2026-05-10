@@ -10,7 +10,7 @@ const projects = [
     tools: "Accountancy, Banking, Business Studies, Economics",
     date: "2021/04 – 2022/06",
     location: "New Delhi, Delhi",
-    image: "/images/callhq.png",
+    image: "https://www.cbse.gov.in/images//logo.png",
     link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     tools: "Financial Accounting, Business Law, Marketing with emphasis on data-driven business solutions",
     date: "2022/08 – 2025/08",
     location: "New Delhi, Delhi",
-    image: "/images/whatsapp.png",
+    image: "https://upload.wikimedia.org/wikipedia/en/b/b6/Delhi_University.svg",
     link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     tools: "Intermediate proficiency in reading, writing, speaking, and listening",
     date: "2022/09 – 2024/09",
     location: "New Delhi, Delhi",
-    image: "/images/broki.png",
+    image: "https://cdn.worldvectorlogo.com/logos/goethe-institut-3.svg",
     link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     tools: "Intermediate Level in Public Speaking, Speech, Group Decision, Podcast & Debate",
     date: "Jun 2025 – Aug 2025",
     location: "New Delhi, India",
-    image: "/images/orrdr.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStelYKfndfYfmBBSJGpfms_e-4pDtHGHOC_g&s",
     link: "https://linkedin.com/in/sharath-raj-b7116a311",
   },
 ];

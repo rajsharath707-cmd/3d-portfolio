@@ -1,4 +1,3 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -8,26 +7,15 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
-            <p>
-              <a
-                href="https://linkedin.com/in/sharath-raj-b7116a311"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — sharath-raj
-              </a>
-            </p>
-            <h4>Location & Contact</h4>
-            <p>
-              New Delhi, India
-            </p>
+            <h4>Contact Info</h4>
             <p>
               Email: rajsharath707@gmail.com
             </p>
             <p>
               Phone: +91 8448311723
+            </p>
+            <p>
+              New Delhi, India
             </p>
           </div>
           <div className="contact-box">
@@ -35,7 +23,7 @@ const Contact = () => {
               Designed for <br /> <span>Sharath Raj</span>
             </h2>
             <h5>
-              <MdCopyright /> 2026
+              &copy; 2026 Sharath Raj
             </h5>
           </div>
         </div>
