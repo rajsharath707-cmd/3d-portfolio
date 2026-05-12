@@ -13,14 +13,14 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  `${import.meta.env.BASE_URL}images/react2.webp`,
+  `${import.meta.env.BASE_URL}images/next2.webp`,
+  `${import.meta.env.BASE_URL}images/node2.webp`,
+  `${import.meta.env.BASE_URL}images/express.webp`,
+  `${import.meta.env.BASE_URL}images/mongo.webp`,
+  `${import.meta.env.BASE_URL}images/mysql.webp`,
+  `${import.meta.env.BASE_URL}images/typescript.webp`,
+  `${import.meta.env.BASE_URL}images/javascript.webp`,
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -130,9 +130,10 @@ const TechStack = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
-      const threshold = document
-        .getElementById("work")!
-        .getBoundingClientRect().top;
+      const targetEl =
+        document.getElementById("work") || document.getElementById("education");
+      if (!targetEl) return;
+      const threshold = targetEl.getBoundingClientRect().top;
       setIsActive(scrollY > threshold);
     };
     document.querySelectorAll(".header a").forEach((elem) => {
