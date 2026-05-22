@@ -9,10 +9,14 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Contact Info</h4>
             <p>
-              Email: rajsharath707@gmail.com
+              Email: <a href="mailto:rajsharath707@gmail.com">rajsharath707@gmail.com</a>
+              <br />
+              Email: <a href="mailto:sharathrajlearning@gmail.com">sharathrajlearning@gmail.com</a>
             </p>
             <p>
-              Phone: +91 8448311723
+              Phone: <a href="tel:+918448311723">+91 8448311723</a>
+              <br />
+              Phone: <a href="tel:+918700266859">+91 8700266859</a>
             </p>
             <p>
               New Delhi, India
