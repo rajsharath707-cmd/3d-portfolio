@@ -3,9 +3,10 @@
   max-width: var(--cMaxWidth);
   width: var(--cWidth);
   bottom: 0;
-  z-index: 99;
+  z-index: 99999;
   left: 50%;
   transform: translateX(-50%);
+  pointer-events: none;
 }
 .social-icons {
   position: absolute;
@@ -42,6 +43,7 @@
   font-size: 23px;
   will-change: left, top;
   transition: transform 0.3s ease-out;
+  pointer-events: auto;
 }
 .resume-button {
   position: absolute;
@@ -61,11 +63,12 @@
   transition: 0.5s;
   transform-origin: left bottom;
   transform: translateX(100%) rotateZ(-90deg);
+  pointer-events: auto;
 }
 .resume-button:hover {
   color: #fff;
 }
-div.resume-button span {
+.resume-button span {
   color: #fff;
   font-size: 17px;
   margin-top: -1px;
@@ -96,7 +99,7 @@ div.resume-button span {
     font-size: 20px;
     line-height: 20px;
   }
-  div.resume-button span {
+  .resume-button span {
     font-size: 23px;
     margin-top: -1.5px;
   }
