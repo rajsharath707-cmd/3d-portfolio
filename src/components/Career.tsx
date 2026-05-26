@@ -15,26 +15,22 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Associate – Operations</h4>
-                <h5>Amber</h5>
+                <h4>Business Operations &amp; Marketing Associate</h4>
+                <h5>Sathi Flavours &amp; Travelling Desi</h5>
+                <h6 className="career-location">New Delhi, India</h6>
               </div>
-              <h3>Mar 2026 – Active</h3>
+              <h3>Mar 2024 – Present</h3>
             </div>
-            <p>
-              Assisting students with short-term and long-term accommodation bookings. Managing end-to-end sales and booking processes while engaging leads through WhatsApp, email, and CRM tools. Building strong client relationships and consistently improving conversion rates.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Associate – Operations</h4>
-                <h5>WNS Global Services</h5>
-              </div>
-              <h3>Sep 2025 – Mar 2026</h3>
-            </div>
-            <p>
-              Delivered comprehensive customer support via chat, email, and calls for airline operations. Managed flight bookings, rebookings, cancellations, and schedule changes using Amadeus and Sabre GDS systems. Maintained service quality, SLA compliance, and high customer satisfaction standards.
-            </p>
+            <ul className="career-bullets">
+              <li>Designed and promoted marketing flyers for food offers, combo deals, and seasonal promotions.</li>
+              <li>Created travel itinerary promotion materials for customer outreach and engagement.</li>
+              <li>Managed social media accounts including content posting, customer queries, and brand interaction.</li>
+              <li>Assisted in planning and running Facebook &amp; Google Ads campaigns for food and service promotions.</li>
+              <li>Coordinated and handled food delivery platform advertisements and listings.</li>
+              <li>Supported day-to-day customer handling, order coordination, and service follow-ups.</li>
+              <li>Assisted in marketing execution, sales support, and operational coordination.</li>
+              <li>Gained practical exposure to digital marketing, customer relationship management, and business operations.</li>
+            </ul>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
