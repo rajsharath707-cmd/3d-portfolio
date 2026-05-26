@@ -40,9 +40,10 @@ const Career = () => {
               </div>
               <h3>Aug 2022 - Aug 2025</h3>
             </div>
-            <p>
-              Completed Bachelor of Commerce with focus on Financial Accounting, Business Law, and Marketing. Developed strong foundation in business analytics and financial management.
-            </p>
+            <ul className="career-bullets">
+              <li>Completed Bachelor of Commerce with focus on Financial Accounting, Business Law, and Marketing.</li>
+              <li>Developed strong foundation in business analytics and financial management.</li>
+            </ul>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
@@ -52,9 +53,10 @@ const Career = () => {
               </div>
               <h3>Jan 2025 - Active</h3>
             </div>
-            <p>
-              Managing a YouTube channel with 500+ subscribers focused on educational content for students planning to study abroad. Providing visa guidance, IELTS preparation strategies, and student life advice with 10K+ total views.
-            </p>
+            <ul className="career-bullets">
+              <li>Managing a YouTube channel with 500+ subscribers focused on educational content for students planning to study abroad.</li>
+              <li>Providing visa guidance, IELTS preparation strategies, and student life advice with 10K+ total views.</li>
+            </ul>
           </div>
         </div>
       </div>
