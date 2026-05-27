@@ -35,19 +35,6 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>B.Com (NEP)</h4>
-                <h5>Delhi University</h5>
-              </div>
-              <h3>Aug 2022 - Aug 2025</h3>
-            </div>
-            <ul className="career-bullets">
-              <li>Completed Bachelor of Commerce with focus on Financial Accounting, Business Law, and Marketing.</li>
-              <li>Developed strong foundation in business analytics and financial management.</li>
-            </ul>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
                 <h4>Content Creator</h4>
                 <h5>Backpack Scholar (YouTube)</h5>
               </div>
