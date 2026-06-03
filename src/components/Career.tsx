@@ -41,8 +41,8 @@ const Career = () => {
               <h3>Jan 2025 - Active</h3>
             </div>
             <ul className="career-bullets">
-              <li>Managing a YouTube channel with 500+ subscribers focused on educational content for students planning to study abroad.</li>
-              <li>Providing visa guidance, IELTS preparation strategies, and student life advice with 10K+ total views.</li>
+              <li>Managing a YouTube channel with 700+ subscribers focused on educational content for students planning to study abroad.</li>
+              <li>Providing visa guidance, IELTS preparation strategies, and student life advice with 20K+ total views.</li>
             </ul>
           </div>
         </div>
